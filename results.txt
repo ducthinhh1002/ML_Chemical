@@ -1,0 +1,307 @@
+=== Building models for bps_pred ===
+==================================================
+
+----- Optimizing XGBoost for bps_pred -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 12
+model__min_child_weight: 5
+model__n_estimators: 1000
+model__subsample: 0.8
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.8784
+RMSE: 12.5221
+MAE: 9.4595
+MAPE: 2.0825%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.8784  12.5221   9.4595   2.0825%
+
+Best model for bps_pred is XGBoost (MAE = 9.4595)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=12, max_leaves=None, min_child_weight=5,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
+
+=== Building models for mps_pred ===
+==================================================
+
+----- Optimizing XGBoost for mps_pred -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 12
+model__min_child_weight: 5
+model__n_estimators: 1000
+model__subsample: 0.8
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.9115
+RMSE: 19.5492
+MAE: 14.3321
+MAPE: 5.3711%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.9115  19.5492  14.3321   5.3711%
+
+Best model for mps_pred is XGBoost (MAE = 14.3321)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=12, max_leaves=None, min_child_weight=5,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
+
+=== Building models for fps_pred ===
+==================================================
+
+----- Optimizing XGBoost for fps_pred -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 12
+model__min_child_weight: 5
+model__n_estimators: 1000
+model__subsample: 0.8
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.9370
+RMSE: 8.1337
+MAE: 6.0974
+MAPE: 1.8017%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.9370   8.1337   6.0974   1.8017%
+
+Best model for fps_pred is XGBoost (MAE = 6.0974)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=12, max_leaves=None, min_child_weight=5,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
+
+=== Building models for mu ===
+==================================================
+
+----- Optimizing XGBoost for mu -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 10
+model__min_child_weight: 3
+model__n_estimators: 1000
+model__subsample: 0.9
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.5489
+RMSE: 1.0239
+MAE: 0.6785
+MAPE: 31261223.7772%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.5489   1.0239   0.6785 31261223.7772%
+
+Best model for mu is XGBoost (MAE = 0.6785)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=10, max_leaves=None, min_child_weight=3,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
+
+=== Building models for HOMO_eV ===
+==================================================
+
+----- Optimizing XGBoost for HOMO_eV -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 10
+model__min_child_weight: 3
+model__n_estimators: 1000
+model__subsample: 0.9
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.7789
+RMSE: 0.2774
+MAE: 0.1998
+MAPE: 3.1354%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.7789   0.2774   0.1998   3.1354%
+
+Best model for HOMO_eV is XGBoost (MAE = 0.1998)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=10, max_leaves=None, min_child_weight=3,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
+
+=== Building models for LUMO_eV ===
+==================================================
+
+----- Optimizing XGBoost for LUMO_eV -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 10
+model__min_child_weight: 3
+model__n_estimators: 1000
+model__subsample: 0.9
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.9302
+RMSE: 0.3378
+MAE: 0.2300
+MAPE: 9827763.5465%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.9302   0.3378   0.2300 9827763.5465%
+
+Best model for LUMO_eV is XGBoost (MAE = 0.2300)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=10, max_leaves=None, min_child_weight=3,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
+
+=== Building models for c_v ===
+==================================================
+
+----- Optimizing XGBoost for c_v -----
+c:\Users\Admin\AppData\Local\Programs\Python\Python39\lib\site-packages\sklearn\model_selection\_search.py:1103: UserWarning: One or more of the test scores are non-finite: [nan nan]
+  warnings.warn(
+
+Best parameters for XGBoost:
+model__alpha: 0.1
+model__colsample_bytree: 1.0
+model__gamma: 0.1
+model__learning_rate: 0.06
+model__max_depth: 10
+model__min_child_weight: 3
+model__n_estimators: 1000
+model__subsample: 0.9
+
+Evaluation Metrics on Test Set:
+R2 Score: 0.9493
+RMSE: 0.9105
+MAE: 0.6509
+MAPE: 2.0862%
+
+----- Model Comparison -----
+Model                 R2     RMSE      MAE     MAPE
+XGBoost           0.9493   0.9105   0.6509   2.0862%
+
+Best model for c_v is XGBoost (MAE = 0.6509)
+Pipeline(steps=[('model',
+                 XGBRegressor(alpha=0.1, base_score=None, booster=None,
+                              callbacks=None, colsample_bylevel=None,
+                              colsample_bynode=None, colsample_bytree=1.0,
+                              device=None, early_stopping_rounds=None,
+                              enable_categorical=False, eval_metric=None,
+                              feature_types=None, gamma=0.1, grow_policy=None,
+                              importance_type=None,
+                              interaction_constraints=None, learning_rate=0.06,
+                              max_bin=None, max_cat_threshold=None,
+                              max_cat_to_onehot=None, max_delta_step=None,
+                              max_depth=10, max_leaves=None, min_child_weight=3,
+                              missing=nan, monotone_constraints=None,
+                              multi_strategy=None, n_estimators=1000,
+                              n_jobs=None, num_parallel_tree=None, ...))])
