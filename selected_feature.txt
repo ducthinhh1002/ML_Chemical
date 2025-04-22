@@ -1,12 +1,12 @@
 
-bps_pred : ['#Accept', 'SLogP', '#O/#C', '#Donor', '#C', '#Ar-N', '#R=R', 'apol', '#Ether', '#Nitrile', 'Vabc', '#Ring', '#Bran', '#AlCR', '#SCR', '#ArR', '#ArHR', '#Imine', '#O', '#Ester']
+bps_pred : ['#Accept', '#Donor', 'SLogP', '#C', '#Ether', '#O/#C', '#Nitrile', 'apol', '#R=R', '#Ar-N', '#Ring', 'Vabc', '#ArR', '#Ester', '#Bran', '#C=O', '#Imine', '#AlHR', '#SCR', '#O']
 
-mps_pred : ['SLogP', '#Accept', '#Donor', '#Ar-N', '#O/#C', '#R=R', 'apol', '#C', '#Ether', '#Bran', 'Vabc', '#Imine', '#ArHR', '#Ring', '#SCR', '#ArR', '#Ketone', '#AlCR', '#AlHR', '#R#R']
+mps_pred : ['SLogP', '#Accept', '#Donor', '#Ar-N', '#R=R', '#O/#C', 'apol', '#Ether', '#C', '#Bran', 'Vabc', '#ArR', '#Imine', '#Ring', '#SCR', '#AlHR', '#Ketone', '#ArHR', '#R#R', '#AlCR']
 
-fps_pred : ['SLogP', '#Accept', '#Donor', '#O/#C', '#C', '#R=R', '#Ar-N', 'apol', '#Ether', '#Nitrile', '#AlCR', 'Vabc', '#Imine', '#Ring', '#O', '#SCR', '#Bran', '#ArR', '#ArHR', '#R#R']
+fps_pred : ['#Accept', 'SLogP', '#Donor', '#O/#C', '#C', 'apol', '#R=R', '#Ether', '#Ar-N', '#Nitrile', '#Imine', '#ArR', '#AlHR', '#Ring', '#ArHR', 'Vabc', '#AlCR', '#SCR', '#Ester', '#R#R']
 
-HOMO_eV : ['#Nitrile', '#O/#C', '#R#R', '#Ar-N', 'SLogP', '#NH0', 'apol', '#Accept', '#O', '#Donor', '#ArNH', '#Ether', '#Bran', '#R=R', 'mu', '#Ring', '#ArN', '#Ester', 'Vabc', '#ArR', '#ArOH', '#AlCR', '#ArHR', '#C', '#AlOH', '#SCR', '#SHR', '#AlR', '#AlHR', '#C=O']
+HOMO_eV : ['#Nitrile', '#O/#C', '#R#R', '#Ar-N', '#NH0', 'apol', '#ArNH', 'SLogP', '#O', '#R=R', '#Donor', '#ArOH', '#Ether', '#ArN', '#Accept', 'mu', '#Ester', '#ArHR', '#Ring', '#ArR', 'Vabc', '#AlCR', '#Bran', '#C=O', '#SCR', '#SHR', '#AlOH', '#AlHR', '#C', '#Epoxide']
 
-LUMO_eV : ['#R=R', '#Accept', '#Ar-N', '#R#R', 'apol', 'SLogP', '#Ketone', '#Nitrile', '#Donor', '#C=O', '#O/#C', '#C', '#AlOH', '#Aldehyde', 'mu', '#Ether', 'Vabc', '#SCR', '#OH', '#Imine', '#AlCR', '#O', '#Ester', '#Ring', '#Bran', '#SHR', '#NH0', '#ArR', '#SR', '#AlR']
+LUMO_eV : ['#R=R', '#Ar-N', '#R#R', '#Accept', 'apol', '#Ketone', '#C=O', '#Nitrile', 'SLogP', '#Aldehyde', '#C', '#Donor', '#O/#C', '#Ether', 'mu', 'Vabc', '#AlOH', '#Imine', '#Ester', '#O', '#SCR', '#ArR', '#Ring', '#Bran', '#OH', '#Amide', '#SR', '#AlR', '#AlCR', '#SHR']
 
-c_v : ['#AlOH', '#R=R', '#Accept', '#O/#C', 'apol', '#OH', 'SLogP', '#Donor', '#Bran', '#C', 'Vabc', '#Ar-N', '#Ether', '#Ring', '#R#R', '#AlHR', '#SCR', '#NH0', 'mu', '#AlR', 'Radius', '#Nitrile', '#AlCR', '#ArHR', '#SHR', '#O', '#SR', '#Imine', '#NH1', '#ArR']
+c_v : ['#AlOH', '#R=R', 'apol', '#Donor', 'Vabc', '#O/#C', '#Accept', '#C', '#Bran', '#OH', 'SLogP', '#R#R', '#Ring', '#Ether', '#Ar-N', '#AlR', '#ArHR', 'Radius', 'mu', '#SR', '#Nitrile', '#AlHR', '#AlCR', '#NH0', '#SCR', '#O', '#NH2', '#NH1', '#Imine', '#Piperidine']
